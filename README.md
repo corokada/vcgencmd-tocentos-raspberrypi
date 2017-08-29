@@ -23,3 +23,14 @@ wget -O /lib/libvchiq_arm.so https://raw.githubusercontent.com/corokada/vcgencmd
 wget -O /lib/libvcos.so https://raw.githubusercontent.com/corokada/vcgencmd-tocentos-raspberrypi/master/hardfp/opt/vc/lib/libvcos.so
 chmod +x /bin/vcgencmd
 ```
+
+一覧
+vcgencmd commands
+CPU温度
+vcgencmd measure_temp
+CPU周波数
+vcgencmd measure_clock arm
+電圧
+vcgencmd measure_volts
+
+他　http://elinux.org/RPI_vcgencmd_usage
